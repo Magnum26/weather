@@ -1,0 +1,41 @@
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title> Weather </title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://rawgit.com/darkskyapp/skycons/master/skycons.js'></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12 text-center">
+          <p id="loading">Sticking head out the window...</p>
+          <h4 id="time"></h4>
+          <h5 id="currently-location">&nbsp;</h5>
+          <h1 id="temp"><span id="currently-temperature">&nbsp;</span><span id="currently-temp-unit">˚C</span></h1>
+          <canvas id="currently-icon">icon</canvas>
+          <h4 id="currently-summary">&nbsp;</h4>
+          <h3 id="minutely-summary">&nbsp;</h3>
+      </div>
+        </div>
+      </div>
+      <div class="container hourly">
+          <div class="row">
+        <div class="col-xs-12 col-md-12 text-center">
+            <h4 id="hourly-summary">&nbsp;</h4>
+        </div>
+      </div>
+    </div>
+    <div class="container daily">
+        <div class="row">
+          <div class="col-xs-12 col-md-12 text-center">
+              <h4 id="daily-summary">&nbsp;</h4>
+        </div>
+    </div>
+    </div>
+</body>
+<script src="weather.js"></script>
+</html>

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Hairline|Roboto');
+#currently-icon img {
+	max-width:100%;
+	max-height:100%;
+}
+body {
+	font-size: 30px;
+	font-family: 'Bungee Hairline',
+	cursive;
+}
+#temp {
+	font-size: 75px;
+}
+#currently-summary {
+	font-size: 60px;
+}
+.hourly h4 {
+margin-top: 60px;
+}
+.daily h4 {
+margin-top: 20px;
+}
