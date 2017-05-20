@@ -31,14 +31,6 @@ $('document').ready ->
       document.getElementById('hourly-summary').innerHTML = msg.hourly.summary
       document.getElementById('daily-summary').innerHTML = msg.daily.summary
       document.getElementById('currently-temperature').innerHTML = roundTemp
-      document.getElementById('currently-temperature').style.display = 'inline'
-      document.getElementById('currently-temp-unit').style.display = 'inline'
-      document.getElementById('currently-icon').style.display = 'inline'
-      document.getElementById('currently-summary').style.display = 'block'
-      document.getElementById('minutely-summary').style.display = 'inline'
-      document.getElementById('hourly-summary').style.display = 'block'
-      document.getElementById('daily-summary').style.display = 'block'
-      document.getElementById('currently-location').style.display = 'block'
       document.getElementById('loading').style.display = 'none'
 
   # Set some global variables that are used throughout
